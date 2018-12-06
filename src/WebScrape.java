@@ -8,7 +8,7 @@ public class WebScrape {
 
   public static void main(String[] args) {
     final String url =
-            "https://www.gamestop.com/browse/games/playstation-4?nav=28-xu0,131dc-ffff2418";
+            "https://store.steampowered.com/genre/Free%20to%20Play/";
 
     try {
       final Document document = Jsoup.connect(url).get();
